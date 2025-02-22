@@ -12,16 +12,19 @@ void sendLINFrame(uint8_t id, uint8_t data) {
     Serial.print((uint8_t)0x00);
     Serial.println();
     Serial.println();
+
     linSerial.write((uint8_t)0x55); // Sync byte
     Serial.print("Sync field : ");
     Serial.print((uint8_t)0x55);
     Serial.println();
     Serial.println();
+
     linSerial.write(id);   // Identifier (with parity bits)
     Serial.print("id : ");
     Serial.print(id);
     Serial.println();
     Serial.println();
+    
     linSerial.write(data); // Data byte
     Serial.print("data :  ");
     Serial.print(data);

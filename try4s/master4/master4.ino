@@ -39,9 +39,9 @@ void loop() {
   byte dataLength = sizeof(data) / sizeof(data[0]);
   Serial.println(dataLength);
   // Debugging print to show checksum being calculated
-byte checksum = calculateChecksum(data, dataLength);
-Serial.print("Calculated checksum: ");
-Serial.println(checksum, HEX);
+  byte checksum = calculateChecksum(data, dataLength);
+  Serial.print("Calculated checksum: ");
+  Serial.println(checksum, HEX);
 
 
 

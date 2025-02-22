@@ -1,3 +1,6 @@
+
+SEND HELLO with LIN Rules
+
 it worked great with the coorect LIN frame format
 
 just one thing it work for a fixed length=5

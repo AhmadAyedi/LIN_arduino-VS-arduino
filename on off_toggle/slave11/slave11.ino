@@ -3,7 +3,7 @@
 #define TX_PIN 2  // TX to LIN module
 #define RX_PIN 3  // RX from LIN module
 #define SLP_PIN 4 // Sleep pin
-#define LED_PIN 13 // LED connected to pin 13
+#define LED_PIN 6 // LED connected to pin 13
 
 SoftwareSerial linSerial(RX_PIN, TX_PIN); // RX, TX
 

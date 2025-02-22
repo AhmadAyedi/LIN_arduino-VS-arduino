@@ -36,6 +36,11 @@ void loop() {
             Serial.print(" receivedChecksum: ");
             Serial.print(receivedChecksum);
             Serial.println("");
+            Serial.println("");
+            Serial.print(" CalculatedChecksum: ");
+            Serial.print(calculatedChecksum);
+            Serial.println("");
+            Serial.println("");
 
         } else {
             Serial.println("Invalid LIN Frame");
